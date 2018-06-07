@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+* {font-family: Arial;}
+
+h3 {color: white;}
+
+body {
+	background-color: DodgerBlue;
+	margin: 0;
+}
+
+.menu {
+	overflow: hidden;
+	background-color: #0d1016;
+}
+
+.menu a {
+	float: left;
+	color: white;
+  	padding: 14px 16px;
+  	text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: DodgerBlue;
+}
+
+input, select, textarea {
+    width: 200px;
+    padding: 12px;
+    border: 1px solid gray;
+    resize: vertical;
+}
+
+input[type=radio] {
+	width: 15px;
+}
+
+input[type=submit] {
+	width: 100px;
+}
+
+label {
+
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    color: white;
+}
